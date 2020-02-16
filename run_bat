@@ -1,4 +1,7 @@
 #!/bin/bash -e
+make sqrt
+./sqrt 64000000
+exit
 
 # https://github.com/kshitijl/avx2-examples/tree/master/examples
 # sysctl -a | grep AVX2
