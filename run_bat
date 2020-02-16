@@ -1,0 +1,14 @@
+#!/bin/bash -e
+
+# https://github.com/kshitijl/avx2-examples/tree/master/examples
+# sysctl -a | grep AVX2
+# gcc -mavx2 01-hello.c
+gcc -mavx2 04-dot-product.c
+./a.out
+exit
+
+# https://software.intel.com/en-us/articles/intel-advanced-vector-extensions-512-intel-avx-512-new-vector-neural-network-instruction
+# gcc sample.cc -mavx512f # -v
+#gcc test_DLBoost.cpp -mavx512vnni -mavx512bw
+# gcc test_DLBoost.cpp -mavx2
+# chmod 755 ./a.out
