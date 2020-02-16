@@ -3,7 +3,7 @@
 # https://github.com/kshitijl/avx2-examples/tree/master/examples
 # sysctl -a | grep AVX2
 # gcc -mavx2 01-hello.c
-gcc -mavx2 04-dot-product.c
+gcc -mavx2 test_avx.c
 ./a.out
 exit
 
